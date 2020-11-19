@@ -2,7 +2,7 @@
 ## Text Data
 
 ### Title for the Project
-Learning HTML
+Website Building
 
 ### 10 Word Summary
 Website Targeted Towards Learning how to Build a Website
