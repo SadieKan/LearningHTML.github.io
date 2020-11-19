@@ -2,7 +2,7 @@
 ## Text Data
 
 ### Title for the Project
-Who Am I: Sadie Kan
+Learning HTML
 
 ### 10 Word Summary
 Website Targeted Towards Learning how to Build a Website
