@@ -24,43 +24,79 @@
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
 
-  </head>
-  <body>
-    <header><h1>Header Title</h1></header>
-    <nav><h1>Navigation</h1></nav>
-    <aside><p>This is the aside space.</p></aside>
-    <section>
-      <h3>Section 1</h3>
-        <article>
-          <p>This is article 1 in section 1.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 1.</p>
-        </article>
-    </section>
-    <section>
-      <h3>Section 2</h3>
-      <article>
-        <p>This is article 1 in section 2.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 2.</p>
-      </article>
-    </section>
-  </body>
+    <style>
+       * {
+         box-sizing: border-box;
+       }
 
-  <footer>
-    <blockquote cite="https://www.goodreads.com/quotes/942-two-things-are-infinite-the-universe-and-human-stupidity-and">
-      <!-- Date Accessed 20201120-->
-    </blockquote>
-    <p>
-      <strong>“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”</strong>
-      <em><a href="https://www.goodreads.com/quotes/942-two-things-are-infinite-the-universe-and-human-stupidity-and" target="_blank">
-        - Albert Einstein</a>
-      </em>
-    </p>
-    <p>&copy Sadie Kan, powered by SadieKan in Github</p>
+       .header {
+         border: 1px solid red;
+         padding: 15px;
+       }
 
-  </footer>
+       .menu {
+         width: 25%;
+         float: left;
+         padding: 15px;
+         border: 1px solid red;
+       }
 
-</html>
+       .main {
+         width: 50%;
+         float: left;
+         padding: 15px;
+         border: 1px solid red;
+       }
+
+       .aside {
+         width: 25%;
+         float: left;
+         padding: 15px;
+         border: 1px solid red;
+       }
+
+       .footer {
+         border: 1px solid red;
+         padding: 15px;
+       }
+     </style>
+
+   </head>
+
+   <body>
+
+     <div class="header"><header><h1>Marvel</h1></header></div>
+
+     <div class="menu">
+       <ul>
+         <li>Black Widow</li>
+         <li>Shang-Chi And The Legend Of The Ten Rings</li>
+         <li>Eternals</li>
+         <li>Black Panther 2</li>
+       </ul>
+       <br><br>
+     </div>
+
+     <div class="main">
+       <h1>The City</h1>
+       <p>Considered as one of the "big two" publishers in the comic industry, Marvel is a media and entertainment industry owned by Disney.</p>
+       <p>Founded in 1939 by Martin Goodman, Marvel Comics was originally named Timely Comics. In 1961, the Marvel
+           universe was unveiled. In order to comply with the growing requests and interests in superhero books, they
+           had commisioned the writer Stan Lee. Stan Lee will eventually write the majority of Marvel's books during that
+           time. Eventually movie adaptations of theses comics were made.</p>
+     </div>
+
+     <div class="aside">
+       <h1>The Aside Space</h1>
+       <p>Information</p>
+       <br><br>
+     </div>
+
+     <div class="footer">
+       <br><br>
+       <h1>Other Info</h1>
+       <p>insert information here</p>
+     </div>
+   </body>
+
+ </html>
