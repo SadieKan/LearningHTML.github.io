@@ -24,36 +24,8 @@
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
 
+
 <style>
-  * {
-    box-sizing: border-box;
-  }
-  /* div {border: thin dotted red;} */
-  .header {
-    /* border: 1px solid red; */
-    padding: 15px;
-  }
-  .menu {
-    width: 25%;
-    float: left;
-    padding: 15px;
-    /* border: 1px solid red; */
-  }
-  .main {
-    width: 50%;
-    float: left;
-    padding: 15px;
-    /* border: 1px solid red; */
-  }
-  .aside {
-    width: 25%;
-    float: left;
-    padding: 15px;
-    /* border: 1px solid red; */
-    }
-  .footer {
-    /* border: 1px solid red; */
-    padding: 15px;
 
   html {
     background-image: url('https://dg.imgix.net/receive-the-holy-spirit-6ktm37jv-en/landscape/receive-the-holy-spirit-6ktm37jv-55780588ff5244e453c841dc40fc5898.jpg?ts=1581024652&ixlib=rails-4.1.0&auto=format%2Ccompress&fit=min&w=700&h=394&dpr=2&ch=Width%2CDPR');
@@ -63,7 +35,62 @@
     height: 100%
   }
 
-      </style>
+  .Body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3vw
+  }
+
+  .Lists2 {
+    list-style-type: circle;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3vw
+  }
+
+  .Paragraph {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6vw
+  }
+
+  body {
+    color: #756f6f
+  }
+
+  header {
+    color: #87a0a8
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding: 15px;
+    /*border: 1px solid red;*/
+  }
+  .menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+  }
+  .main {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+  }
+  .aside {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+    }
+  .footer {
+    padding: 15px;
+    /*border: 1px solid red;*/
+  }
+  
+</style>
 
   </head>
 
@@ -72,41 +99,56 @@
       <header><h1 style="font-size:5.5vw">Learning HTML, Example Splash Page</h1></header>
     </div>
     <div class="menu">
-      <nav><h3>Navigation with no viewport in h3</h3></nav>
+      <nav><h3 style="font-size:2vw">Navigation with no viewport in h3</h3></nav>
     </div>
     <div class="main">
       <section>
-        <h3 style="font-size:2.5vw">Section 1</h3>
-        <a style="font-size:1vw"> Notice all Semantic Tags have Responsive Web Design Except NAV and ASIDE.</a>
-        <br>
+        <h3 style="font-size:2vw">Information</h3>
         <article>
-          <p style="font-size:1vw">Here are hyperlinks to Experiement Pages: </p>
+          <div class="Paragraph"><p>Here are hyperlinks to Experiement Pages: </p></div>
           <!-- See the HTML .txt document for a summary-->
-          <ol style="font-size:1vw" type="A">
-            <li style="font-size:1vw"> Meta Data Example: <a href="childPages\MetaData.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> Footer Blockquote Example: <a href="childPages\childTemplate.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> Template Exemplar: <a href="childPages\childTemplate.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> Headings and Paragraph Tags: <a href="childPages\Exp H1-H6 P.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> Subscript and Superscript Tags: <a href="childPages\Exp Sub and Superscript.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> Image Lesson: <a href="childPages\Exp Images.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> Laying out DIVs (using HTML Boilerplate): <a href="childPages\Exp DIVs.html" target="_blank">click here</a>
-            <li style="font-size:1vw"> What this Page Looks Like using Flexbox: <a href="childPages\Flexbox Examplar Index File.html" target="_blank">click here</a>
-            </ol>
-            <p style="font-size:1vw">Hyperlinks to Additional Pages: </p>
-            <ul style="font-size:1vw" style="list-style-type:square">
-              <li style="font-size:1vw">2-Column Layout using Flexbox:
-                <a style="font-size:1vw" href="childPages\Responsive 2-Column Example.html" target="_blank">click here</a></li>
-              <li style="font-size:1vw">3-Column Layout for Semantic Body Tags using Flexbox:
-                <a style="font-size:1vw" href="childPages\Responsive 3-Column Example.html" target="_blank">click here</a></li>
-              <li style="font-size:1vw">Ordered and Unordered Lists:
-                <a style="font-size:1vw" href="childPages\Ordered and Unordered Lists.html" target="_blank">click here</a></li>
-            </ul>
+          <ol>
+          <div class="Body">
+            <li> Meta Data Example:
+              <a href="childPages\MetaData.html" target="_blank">click here</a>
+            <li> Footer Blockquote Example:
+              <a href="childPages\childTemplate.html" target="_blank">click here</a>
+            <li> Template Exemplar:
+              <a href="childPages\childTemplate.html" target="_blank">click here</a>
+            <li> Headings and Paragraph Tags:
+              <a href="childPages\Exp H1-H6 P.html" target="_blank">click here</a>
+            <li> Subscript and Superscript Tags:
+              <a href="childPages\Exp Sub and Superscript.html" target="_blank">click here</a>
+            <li> Image Lesson:
+              <a href="childPages\Exp Images.html" target="_blank">click here</a>
+            <li> Laying out DIVs (using HTML Boilerplate):
+              <a href="childPages\Exp DIVs.html" target="_blank">click here</a>
+            <li> What this Page Looks Like using Flexbox:
+              <a href="childPages\Flexbox Examplar Index File.html" target="_blank">click here</a>
+          </div>
+          </ol>
+
+          <div class="Paragraph"><p>Hyperlinks to Additional Pages: </p></div>
+          <div class="Lists2">
+          <ul>
+            <li>2-Column Layout using Flexbox:
+              <a href="childPages\Responsive 2-Column Example.html" target="_blank">click here</a></li>
+            <li>3-Column Layout for Semantic Body Tags using Flexbox:
+              <a href="childPages\Responsive 3-Column Example.html" target="_blank">click here</a></li>
+            <li>Ordered and Unordered Lists:
+              <a href="childPages\Ordered and Unordered Lists.html" target="_blank">click here</a></li>
+            <li>Image Background:
+              <a href="childPages\Image Background.html" target="_blank">click here</a></li>
+            <li>Embedded YouTube Video:
+              <a href="childPages\Embedded Video.html" target="_blank">click here</a></li>
+          </div>
+          </ul>
           <br>
         </article>
       </section>
     </div>
     <div class="aside">
-      <aside><p>This is the aside space with no viewport in a p-tag.</p></aside>
+      <div class="Body"><aside><p>This is the aside space with no viewport in a p-tag.</p></aside></div>
     </div>
   </body>
 
