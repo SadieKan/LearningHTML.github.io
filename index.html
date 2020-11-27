@@ -27,7 +27,7 @@
     <style>
     /*div {border: thin dotted red;}*/
 
-    .Lists {
+    .Body {
       font-family: 'Nunito', sans-serif;
       font-size: 1.3vw
     }
@@ -39,7 +39,16 @@
     }
 
     .Paragraph {
-      font-size: 2vw
+      font-family: 'Nunito', sans-serif;
+      font-size: 1.6vw
+    }
+
+    body {
+      color: #756f6f
+    }
+
+    header {
+      color: #87a0a8
     }
 
     html {
@@ -59,17 +68,17 @@
       <header><h1 style="font-size:5.5vw">Learning HTML Splash Page</h1></header>
     </div>
     <div>
-      <nav><h3>Navigation with no viewport in h3</h3></nav>
+      <nav><h3 style="font-size:2vw">Navigation with no viewport in h3</h3></nav>
     </div>
     <div>
-      <aside><p>This is the aside space with no viewport in a p-tag.</p></aside>
+      <div class="Body"><aside><p>This is the aside space with no viewport in a p-tag.</p></aside></div>
       <section>
-        <h3 style="font-size:2.5vw">Information</h3>
+        <h3 style="font-size:2vw">Information</h3>
         <article>
           <div class="Paragraph"><p>Here are hyperlinks to Experiement Pages: </p></div>
           <!-- See the HTML .txt document for a summary-->
           <ol>
-          <div class="Lists">
+          <div class="Body">
             <li> Meta Data Example:
               <a href="childPages\MetaData.html" target="_blank">click here</a>
             <li> Footer Blockquote Example:
